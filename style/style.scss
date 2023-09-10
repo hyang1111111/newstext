@@ -1,7 +1,7 @@
 * {
   box-sizing: border-box;
   letter-spacing: -0.4px;
-  font-family: "Noto Sans KR,Apple SD Gothic";
+  font-family: 'Noto Sans KR,Apple SD Gothic';
   margin: 0;
 }
 
@@ -10,7 +10,7 @@ header {
   position: static;
   a {
     color: rgb(43, 43, 43);
-    font-family: "Noto Sans KR,Apple SD Gothic";
+    font-family: 'Noto Sans KR,Apple SD Gothic';
     font-size: 18px;
     font-weight: 800;
     text-decoration: none;
@@ -38,6 +38,16 @@ header {
   .nav_item {
     margin-right: 24px;
     float: left;
+  }
+}
+
+.img {
+  .text {
+    text-align: left;
+  }
+  img {
+    width: 100%;
+    height: auto;
   }
 }
 
