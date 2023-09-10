@@ -19,6 +19,16 @@ header {
   margin: 0 auto;
 }
 
+.img {
+  img {
+    width: 100%;
+    height: auto;
+  }
+  .text {
+    text-align: left;
+  }
+}
+
 .logo {
   display: inline-block;
   position: relative;

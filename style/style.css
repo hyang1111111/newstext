@@ -19,6 +19,14 @@ header a {
   text-decoration: none;
 }
 
+.img img {
+  width: 100%;
+  height: auto;
+}
+.img .text {
+  text-align: left;
+}
+
 .logo {
   display: inline-block;
   position: relative;
@@ -39,6 +47,14 @@ header a {
 #articleMenu .nav_item {
   margin-right: 24px;
   float: left;
+}
+
+.img .text {
+  text-align: left;
+}
+.img img {
+  width: 100%;
+  height: auto;
 }
 
 .login {
