@@ -27,6 +27,13 @@ header a {
   text-align: left;
 }
 
+.ad {
+  margin-top: -640px;
+  padding: 80px;
+  padding-right: 160px;
+  text-align: right;
+}
+
 .logo {
   display: inline-block;
   position: relative;
