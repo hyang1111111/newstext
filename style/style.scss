@@ -19,6 +19,28 @@ header {
   margin: 0 auto;
 }
 
+.ad_top {
+  margin: 0;
+  text-align: center;
+}
+
+.ad_top_section {
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+  background-color: rgb(243, 243, 243);
+  .ad_top_container {
+    margin-block: 10px;
+    .ad_title {
+      font-weight: 600;
+      color: rgb(159, 159, 159);
+    }
+    img {
+      width: 800px;
+    }
+  }
+}
+
 .img {
   img {
     width: 100%;
@@ -50,8 +72,8 @@ header {
   margin: 0 160px;
   margin-left: 180px;
   line-height: 24px;
-  padding: 28px 0 !important;
-  position: absolute !important;
+  padding: 28px 0;
+  position: absolute;
   .nav_item {
     margin-right: 24px;
     float: left;
@@ -59,8 +81,16 @@ header {
 }
 
 .img {
+  .img_container {
+    padding-bottom: 4px;
+    img {
+      margin-block: 4px;
+    }
+  }
   .text {
     text-align: left;
+    color: #666;
+    font-size: 16px;
   }
   img {
     width: 100%;
@@ -102,7 +132,7 @@ header {
 
 .contents {
   margin: 0px 264px;
-  padding: 120px 0px 120px;
+  padding: 60px 0px 120px;
 }
 
 .article {
@@ -272,4 +302,122 @@ h1 {
     color: rgb(139, 139, 139);
     text-decoration: none;
   }
+}
+
+.con_fit_section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+  width: 580px;
+  height: auto;
+  padding-bottom: 28px;
+  .second_container {
+    padding-top: 12px;
+    .second_title {
+      font-size: 16px;
+      font-weight: 600;
+      margin-block: 8px;
+      padding-bottom: 6px;
+      border-color: rgb(225, 225, 225);
+      border-width: 0 0 1px 0;
+      border-style: solid;
+    }
+  }
+}
+
+.con_fit_container {
+  display: flex;
+  justify-content: center;
+  img {
+    margin-inline: 4px;
+  }
+  .con_fit_title {
+    width: 580px;
+    height: auto;
+    display: flex;
+    border: 0 solid;
+    overflow: hidden;
+    text-decoration: none;
+    color: #111;
+    border-width: 4px 0 0 0;
+    background: transparent;
+    border-style: solid;
+    border-color: #333;
+    padding: 5px 0px 3px 0px;
+    line-height: 28px;
+    display: block;
+    margin: 0px 0px 0px 0px;
+    position: relative;
+    background-color: transparent;
+    box-sizing: initial;
+    font-size: 18px;
+    font-weight: 900;
+  }
+}
+
+.thumbsnail_article_container {
+  width: 894px;
+  height: auto;
+  margin: auto;
+}
+
+.tbn_article_title {
+  display: flex;
+  border: 0 solid;
+  overflow: hidden;
+  vertical-align: middle;
+  text-decoration: none;
+  color: #111;
+  border-width: 4px 0 0 0;
+  background: transparent;
+  border-style: solid;
+  border-color: #333;
+  padding: 5px 0px 3px 0px;
+  line-height: 28px;
+  display: block;
+  margin: 0px 0px 0px 0px;
+  position: relative;
+  background-color: transparent;
+  box-sizing: initial;
+  width: 893px;
+  .title {
+    font-size: 18px;
+    font-weight: 900;
+    padding-right: 631px;
+  }
+  .ad_title {
+    font-size: 14px;
+    align-items: center;
+  }
+}
+
+.tbn_card_section {
+  display: flex;
+  flex-grow: 1;
+  flex-wrap: wrap;
+  flex-shrink: 1;
+  flex-basis: auto;
+  gap: 31px;
+}
+
+.tbn_card_container {
+  width: 200px;
+  height: 220px;
+  margin-block: 6px;
+  .card_title {
+    font-size: 16px;
+    font-weight: 700;
+    margin-block: 4px;
+    line-height: 20px;
+  }
+  .card_link {
+    color: rgb(140, 140, 140);
+  }
+}
+
+.resort_section {
+  margin: auto;
+  text-align: center;
+  padding-block: 40px;
 }
